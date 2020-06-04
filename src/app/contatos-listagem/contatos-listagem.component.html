@@ -1,1 +1,8 @@
-<p>contatos-listagem works!</p>
+<h2>Listagem</h2>
+<ul>
+
+    <li *ngFor='let c of contatos'>
+        {{c.id}} {{c.login}} {{c.node_id}} {{c.type}}
+    </li>
+
+</ul>
